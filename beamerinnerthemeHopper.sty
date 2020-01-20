@@ -1,0 +1,20 @@
+\mode<presentation>
+
+\setbeamertemplate{background}{
+  add crest
+  add chapel
+}
+
+% title page
+\defbeamertemplate*{title page}{SevernaPark}[1][]%
+                   {
+                     \begin{beamercolorbox}{title page header}
+                       \usebeamerfont{title}\inserttitle\par%
+                     \end{beamercolorbox}
+                     \begin{beamercolorbox}{author}
+                       \usebeamerfont{author}\insertauthor%
+                     \end{beamercolorbox}
+                     \begin{beamercolorbox}{date}
+                       \usebeamerfont{author}\insertdate%
+                     \end{beamercolorbox}
+                     }
